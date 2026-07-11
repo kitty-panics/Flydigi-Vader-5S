@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="37d7", ATTRS{idProduct}=="2801", RUN+="/sbin/modprobe xpad", RUN+="/bin/sh -c 'echo 37d7 2801 > /sys/bus/usb/drivers/xpad/new_id'"
